@@ -1,6 +1,6 @@
 {
-  "name": "hexo-theme-instapaper",
-  "version": "0.0.7",
+  "name": "hexo-theme-tinypaper",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/techmovie/hexo-theme-instapaper.git"
+    "url": "git+https://github.com/itcraft-cn/hexo-theme-tinypaper.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/techmovie/hexo-theme-instapaper/issues"
+    "url": "https://github.com/itcraft-cn/hexo-theme-tinypaper/issues"
   },
-  "homepage": "https://github.com/techmovie/hexo-theme-instapaper#readme",
+  "homepage": "https://github.com/itcraft-cn/hexo-theme-tinypaper#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
