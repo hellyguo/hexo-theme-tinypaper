@@ -13,3 +13,7 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
 beian:
   ba_url: https://1.2.3.4/5
   ba_id: 12345
+stat:
+  baidu:
+    enable: true
+    id: 1234567890

@@ -5,7 +5,7 @@ footer.footer-page
     span  | Theme
     a(href='https://github.com/itcraft-cn/hexo-theme-tinypaper') tinypaper
     span  | 备案
-    a(href=theme.beian.ba_url) #{ theme.beian.ba_id }
+    a(href=theme.beian.ba_url) #{theme.beian.ba_id}
 if theme.mermaid.enable == true
   script(type='text/javascript', id='maid-script' mermaidoptioins=theme.mermaid.options src='https://unpkg.com/mermaid@'+ theme.mermaid.version + '/dist/mermaid.min.js')
   script.
@@ -13,3 +13,12 @@ if theme.mermaid.enable == true
       var options = JSON.parse(document.getElementById('maid-script').getAttribute('mermaidoptioins'));
       mermaid.initialize(options);
     }
+if theme.stat.baidu.enable == true
+  script.
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?" + #{theme.stat.baidu.id};
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
