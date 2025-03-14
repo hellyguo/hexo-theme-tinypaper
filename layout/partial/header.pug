@@ -5,5 +5,9 @@ header.page-header
         a(href='/') 主页
       li.nav-item 
         a(href='/archives/') 归档
+      if theme.menus && theme.menus.length
+        each menu in theme.menus
+          li.nav-item 
+            a(href=url_for(menu.url)) #{menu.name}
     .mode-switch
       span.iconfont.icon-DarkTheme
